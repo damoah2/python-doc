@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="Python Documentation">
+    <meta name="keywords" content="Python, Programming">
+    <meta name="author" content="Dennis Amoah">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Python Documentation</title>
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!--Google Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav id="navbar">
+        <header>
+            <h1>Python Documentation</h1>
+        </header>
+        <ul>
+            <li>
+                <a class="nav-link" href="#Introduction_to_Python_Programming">Introduction to Python Programming</a>
+            </li>
+            <li>
+                <a class="nav-link" href="#Getting_Started_with_Python">Getting Started with Python
+                </a>
+            </li>
+            <li>
+                <a class="nav-link" href="#Python_Syntax_and_Concepts">Python Syntax and Concepts
+                </a>
+            </li>
+            <li>
+                <a class="nav-link" href="#Functions_and_Libraries">Functions and Libraries</a>
+            </li>
+            <li>
+                <a class="nav-link" href="#Best_Practices">Best Practices</a>
+            </li>
+            <li>
+                <a class="nav-link" href="#Conclusion">Conclusion</a>
+            </li>
+            <li>
+                <a class="nav-link" href="#Reference">Reference</a>
+            </li>
+        </ul>
+    </nav>
+    <main id="main-doc">
+        <!--Introduction to Python Programming-->
+        <section class="main-section" id="Introduction_to_Python_Programming">
+            <header>
+                <h2>Introduction to Python Programming</h2>
+            </header>
+            <article>
+                <p>
+                    Python is an incredibly versatile and dynamic programming language known for its simplicity,
+                    readability, and broad range of applications. Whether you're a programming novice or an experienced
+                    developer, Python's intuitive syntax and extensive libraries make it an excellent choice for
+                    projects of all sizes and complexities. This comprehensive three-page document will provide you with
+                    a thorough overview of Python and guide you through the essential principles of writing effective
+                    code in this language.
+                </p>
+            </article>
+        </section>
+
+        <!--Getting Started with Python-->
+        <section class="main-section" id="Getting_Started_with_Python">
+            <header>
+                <h2>Getting Started with Python</h2>
+            </header>
+            <article>
+                <ol>
+                    <li>
+                        <p>
+                            <b>Installation:</b> To start writing Python code, you need to have Python installed on your
+                            system. You can download the latest version from the official Python website (python.org)
+                            and follow the installation instructions.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <b>Your First Program: "Hello, World!":</b> The traditional way to kick off your Python
+                            journey is by printing "Hello, World!" to the console. This simple example introduces you to
+                            the basic structure of a Python program:
+                        </p>
+                        <code>
+                  print("Hello, World!")
+                </code>
+                    </li>
+                </ol>
+            </article>
+        </section>
+
+        <!--Python Syntax and Concepts-->
+        <section class="main-section" id="Python_Syntax_and_Concepts">
+            <header>
+                <h2>Python Syntax and Concepts</h2>
+            </header>
+            <article>
+                <ol>
+                    <li>
+                        <p>
+                            <b>Indentation:</b> Unlike many programming languages that use braces or keywords to define
+                            code blocks, Python uses indentation. Proper indentation is crucial for the readability and
+                            functionality of your code.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <b>Variables and Data Types:</b> Python is dynamically typed, meaning you don't need to
+                            declare the data type of a variable explicitly. Common data types include integers, floats,
+                            strings, booleans, and lists.
+                        </p>
+                        <code>
+                age = 25 <br>
+                name = "Alice" <br>
+                is_student = True
+              </code>
+                    </li>
+                    <li>
+                        <p>
+                            <b>Control Structures:</b> Python provides if statements, for loops, and while loops to
+                            control the flow of your program.
+                        </p>
+                        <code>
+                if age >= 18: <br>
+                <span class="indent">print("You are an adult.")</span><br>
+                else: <br>
+                <span class="indent">print("You are a minor.")</span> <br>
+                for i in range(5): <br>
+                <span class="indent">print(i)</span> <br>
+                while count < 10: <br>
+                <span class="indent">print(count)</span> <br>
+                <span class="indent">count += 1</span> <br>
+            </code>
+                    </li>
+
+                </ol>
+            </article>
+        </section>
+
+        <!--Functions and Libraries-->
+        <section class="main-section" id="Functions_and_Libraries">
+            <header>
+                <h2>Functions and Libraries</h2>
+            </header>
+            <article>
+                <p>
+                    <b>Functions:</b> Functions allow you to group code into reusable blocks, enhancing the modularity
+                    of your code.
+                </p>
+                <code>
+            def greet(name): <br>
+               <span class="indent">print("Hello, " + name + "!")</span> <br>
+            greet("Bob") <br>
+          </code>
+                <p>
+                    <b>Libraries:</b> Python boasts a vast collection of libraries that provide pre-built functions for
+                    various tasks. Common libraries include NumPy for numerical operations, pandas for data
+                    manipulation, and matplotlib for data visualization.
+                </p>
+                <code>
+            import numpy as np <br>
+            data = np.array([1, 2, 3, 4, 5])
+          </code>
+            </article>
+        </section>
+
+        <!--Best Practices-->
+        <section class="main-section" id="Best_Practices">
+            <header>
+                <h2>Best Practices</h2>
+            </header>
+            <article>
+                <ol>
+                    <li>
+                        <p>
+                            <b>Readability:</b> Python places a strong emphasis on code readability. Use meaningful
+                            variable names and add comments to explain complex logic.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <b>PEP 8:</b> Follow the Python Enhancement Proposal (PEP 8) guidelines for consistent code
+                            formatting, naming conventions, and style.
+                        </p>
+                    </li>
+                    <li>
+                        <p><b>Modularization:</b> Break your code into smaller functions and modules to improve
+                            maintainability and reusability.</p>
+                    </li>
+                </ol>
+            </article>
+        </section>
+
+        <!--Conclusion-->
+        <section class="main-section" id="Conclusion">
+            <header>
+                <h2>Conclusion</h2>
+            </header>
+            <article>
+                <p>
+                    Python's versatility, extensive libraries, and active community position it as a leading programming
+                    language for tasks spanning web development, data analysis, and machine learning. By mastering
+                    Python's core concepts and adhering to best practices, you'll unlock a world of programming
+                    potential. Embrace the journey and enjoy the rewards of coding with Python!
+                </p>
+            </article>
+        </section>
+
+        <!--Reference-->
+        <section class="main-section" id="Reference">
+            <header>
+                <h2>Reference</h2>
+            </header>
+            <article>
+                <p>
+                    All the documentation in this page is taken from <a
+                        href="https://www.w3schools.com/python/default.asp">w3schools</a>.
+                </p>
+            </article>
+        </section>
+    </main>
+</body>
+</html>
